@@ -16,21 +16,41 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Inspiration
+The growing trend of health issues globally, coupled with the increasing demand for medical consultations, inspired the creation of TeleConsult.Ai. Recognizing the limitations of current solutions relying on textual exchanges, our goal is to revolutionize healthcare communication by leveraging advanced technology.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## What it does
+TeleConsult.Ai facilitates seamless communication over consultations through a chat room setting. The platform boasts Multilingual chat support with real-time language translation, ensuring that language differences do not hinder effective communication between health consultants and patients. By harnessing the data generated from consultation chats, TeleConsult.Ai offers a virtual AI consultation experience. This includes providing overall feedback and improvement details, aiding users in presenting precise information to medical professionals.
 
-## Learn More
+## How we built it
 
-To learn more about Next.js, take a look at the following resources:
+TeleConsult.Ai was crafted with precision and efficiency, employing a powerful tech stack to ensure seamless functionality and a robust user experience.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Firebase
+We leveraged Firebase for its real-time database capabilities, enabling instant updates and smooth communication in the chat room. Firebase Authentication ensured secure access for both patients and health consultants.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Next.js
+Next.js served as the backbone of our frontend, offering server-side rendering for improved performance and SEO. Its modular structure facilitated rapid development and seamless integration with our chosen technologies.
 
-## Deploy on Vercel
+### Palm2API
+Palm2API played a pivotal role in data management and retrieval. Integrating with Palm2API allowed us to efficiently query details across all logs, consolidating insights for the virtual AI consultation experience.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Tailwind CSS
+Tailwind CSS streamlined our styling process. Its utility-first approach allowed for quick customization, ensuring a sleek and responsive design across various devices.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### TypeScript
+TypeScript enhanced the maintainability of our codebase. With strong typing and intelligent autocompletion, we reduced errors and improved the overall development experience.
+
+This tech stack not only enabled us to address the challenges presented by health communication but also positioned TeleConsult.Ai as a cutting-edge solution ready to evolve with the ever-changing landscape of healthcare technology.
+
+## Challenges we ran into
+Developing a platform of this magnitude posed several challenges. Integrating real-time language translation while maintaining user-friendly chat interactions required intricate coding and testing. Ensuring the security and privacy of medical data added another layer of complexity. Additionally, creating a system that could adapt to various healthcare scenarios and user needs was a significant challenge that we successfully navigated.
+
+## Accomplishments that we're proud of
+We take pride in overcoming the challenges and creating a platform that addresses critical issues in healthcare communication. The successful implementation of Multilingual chat support, real-time language translation, and the integration of AI-driven virtual consultations are notable accomplishments. The positive feedback from users who have experienced accurate and comprehensive communication further validates our achievements.
+
+## What we learned
+The development of TeleConsult.Ai provided invaluable lessons in combining cutting-edge technology with healthcare solutions. We learned about the intricacies of language translation, the importance of user-friendly interfaces in healthcare platforms, and the need for robust data security measures in medical applications.
+
+## What's next for TeleConsult.AI
+The journey doesn't end here. TeleConsult.Ai aims to continually evolve. Future plans include refining AI algorithms for even more accurate virtual consultations, expanding language support, and forging partnerships with healthcare institutions to further enhance the platform's capabilities. We are committed to revolutionizing healthcare communication for the benefit of patients and medical professionals alike.
